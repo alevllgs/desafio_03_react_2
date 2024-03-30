@@ -1,4 +1,4 @@
-// src/components/PokemonDetalle.jsx
+
 import { useParams } from 'react-router-dom';
 
 const PokemonDetalle = () => {

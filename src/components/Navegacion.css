@@ -1,21 +1,31 @@
-/* src/components/Navegacion.css */
+
 .navegacion {
-    background-color: #808080;
-    padding: 10px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000; /* Asegurarse de que la barra de navegación esté por encima del contenido */
-  }
-  
-  .navegacion a {
-    color: white;
-    text-decoration: none;
-    margin-right: 10px;
-  }
-  
-  .navegacion a.active {
-    font-weight: bold;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #808080;
+  padding: 10px;
+  width: 100%;
+}
+
+.navegacion-links {
+  display: flex;
+  margin-right: 20px; 
+}
+
+.navegacion a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.navegacion a.active {
+  font-weight: bold;
+}
+
+.pokeball-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url('/src/assets/img/Pokeball-3.png'); 
+  background-size: cover;
+}

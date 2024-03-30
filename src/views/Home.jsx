@@ -1,6 +1,6 @@
-// src/views/Home.jsx
+
 import React from 'react';
-import './Home.css'; // Importar el archivo CSS para la vista Home
+import './Home.css'; 
 
 const Home = () => {
   return (
