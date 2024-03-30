@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navegacion from './components/Navegacion';
 import Home from './views/Home';
 import Pokemones from './views/Pokemones';
+import './App.css';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 

@@ -28,7 +28,7 @@ const Pokemones = () => {
   };
 
   return (
-    <div>
+    <div style={{ width: '100%' }}>
       <select value={name || ''} onChange={handleChange}>
         <option value="">Seleccione un Pokémon</option>
         {pokemones.map(pokemon => (
@@ -48,4 +48,5 @@ const Pokemones = () => {
 };
 
 export default Pokemones;
+
 

@@ -1,0 +1,21 @@
+/* src/views/Home.css */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px; /* Ajusta este valor según la altura de tu barra de navegación */
+    height: calc(100vh - 80px); /* Altura total de la ventana menos la altura de la barra de navegación */
+  }
+  
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .titulo_home {
+    margin-bottom: 20px; /* Espacio entre el título y la imagen */
+  }
+  
